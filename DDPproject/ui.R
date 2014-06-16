@@ -15,7 +15,7 @@ shinyUI(pageWithSidebar(
     h3('Plot Small Mammal Population Density Over Time'),
     h6('Since 1989 we have conducted monthly censuses of the small mammals in Fray Jorge National Park in
        in North-central Chile. To see how the populations have changed select one of the seven species 
-        listed on the left and it will its population abundance will be plotted over time.'),
+        listed on the left.  The graph below will show the species population abundance over time.'),
     #h4('Species Selected'),
     #verbatimTextOutput("oSpp"),
       
