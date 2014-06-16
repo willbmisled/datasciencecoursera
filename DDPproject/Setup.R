@@ -2,6 +2,14 @@
 setwd("./DDPproject") #switch to project subdirectory
 require("shiny")
 require("shinyapps")
+
+#get the data
+mnka<-read.csv(url('https://raw.github.com/willbmisled/datasciencecoursera/master/DDPproject/FJmnka.csv'))
+closeAllConnections()#close connections to server
+save(mnka,file='mnka.rda')
+
+
+
 runApp()
 
 shinyapps::setAccountInfo(name='willbmisled', token='F2EE833486D9597B1FC24B4F18B64346', secret='pVbuFo0aOZOGoEL+QuWBhYuR13VEER7pZX7Ycg+q')

@@ -1,8 +1,9 @@
 library(shiny)
 
 #get the data
-  mnka<-read.csv(url('https://raw.github.com/willbmisled/datasciencecoursera/master/DDPproject/FJmnka.csv'))
-  closeAllConnections()#close connections to server
+mnka<-read.csv(url('https://raw.github.com/willbmisled/datasciencecoursera/master/DDPproject/FJmnka.csv'))
+closeAllConnections()#close connections to server
+
 #start Shiny app
 shinyServer(
   function(input, output) {
