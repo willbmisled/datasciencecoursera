@@ -1,4 +1,9 @@
 # ui.R
+#Note: the data are available on Github but not needed
+      #to run the shinyApp
+      #mnka<-read.csv(url('https://raw.github.com/willbmisled/datasciencecoursera/master/DDPproject/FJmnka.csv'))
+#https://willbmisled.shinyapps.io/DDPproject/
+
 shinyUI(pageWithSidebar(
   headerPanel("Fray Jorge Small Mammals"),
   sidebarPanel(
