@@ -12,11 +12,24 @@ save(mnka,file='mnka.rda')
 
 runApp()
 
-shinyapps::setAccountInfo(name='willbmisled', token='F2EE833486D9597B1FC24B4F18B64346', secret='pVbuFo0aOZOGoEL+QuWBhYuR13VEER7pZX7Ycg+q')
+#to run this you need to get the token info from shinyapps.io
+    #shinyapps::setAccountInfo(name='willbmisled', token='
 deployApp()
 
 
 #https://willbmisled.shinyapps.io/DDPproject/
+
+
+#########slidify
+library(slidify)
+  setwd('C:/Bryan/PortableApps/R/scripts/datasciencecoursera/')
+  #author('DDPslidify')
+
+setwd('C:/Bryan/PortableApps/R/scripts/datasciencecoursera/DDPslidify')
+
+publish_github("https://github.com/willbmisled/datasciencecoursera/tree/master/DDPslidify",username = 'willbmisled')
+
+#http://willbmisled.github.io/DDPslidify
 
 
 

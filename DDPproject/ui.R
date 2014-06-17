@@ -21,6 +21,7 @@ shinyUI(pageWithSidebar(
     h6('Since 1989 we have conducted monthly censuses of the small mammals in Fray Jorge National Park in
        in North-central Chile. To see how the populations have changed select one of the seven species 
         listed on the left.  The graph below will show the species population abundance over time.'),
+    h4("Note: The app can be slow to load so if you don't see the figure wait a bit and it will appear"),
     #h4('Species Selected'),
     #verbatimTextOutput("oSpp"),
       
